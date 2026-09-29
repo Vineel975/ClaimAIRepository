@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+dist
+scripts/work
+*.tsbuildinfo
+# Source claim PDFs contain patient data. Never commit them.
+*.pdf
