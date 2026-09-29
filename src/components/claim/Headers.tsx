@@ -7,15 +7,10 @@ export function AppHeader() {
   return (
     <header className="flex h-14 shrink-0 items-center justify-between border-b border-slate-200 bg-white px-4">
       <div className="flex items-center gap-3">
-        <div className="grid size-8 place-items-center rounded-lg bg-[#1e3a8a] text-white shadow-sm" aria-hidden>
-          <svg viewBox="0 0 24 24" className="size-[18px]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
-            <path d="M14 3v5h5" />
-            <path d="m9 14 2 2 4-4" />
-          </svg>
-        </div>
+        {/* 113×96 source shown at 32px tall: 3× density, stays sharp on retina screens. */}
+        <img src="zapsight-logo.png" alt="" width={38} height={32} className="h-8 w-auto select-none" draggable={false} />
         <div className="flex items-baseline gap-3">
-          <span className="text-[15px] font-bold tracking-tight text-slate-900">Claim AI</span>
+          <span className="text-[17px] font-bold tracking-tight text-slate-900">Zapsight</span>
           <span className="hidden text-sm tracking-wide text-gray-500 sm:inline">AUTOMATED CLAIM ADJUDICATION</span>
         </div>
       </div>
