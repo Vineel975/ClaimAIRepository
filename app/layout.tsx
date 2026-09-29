@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Claim AI Demo",
+  title: "Zapsight · Claims Adjudication AI",
   description: "AI-extracted claim fields linked to highlighted source documents",
 };
 
